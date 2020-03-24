@@ -97,8 +97,7 @@ jobs:
           cat >> .config <<EOF
           # CONFIG_TARGET_ROOTFS_TARGZ is not set
           # CONFIG_TARGET_ROOTFS_INITRAMFS is not set
-          # CONFIG_TARGET_ROOTFS_SQUASHFS is not set
-          CONFIG_TARGET_ROOTFS_EXT4FS is not set
+          # CONFIG_TARGET_ROOTFS_EXT4FS is not set
           EOF
           # 设置固件大小:
           cat >> .config <<EOF
